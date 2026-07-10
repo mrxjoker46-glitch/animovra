@@ -1,0 +1,31 @@
+body{
+    background:#0d0d0d;
+    color:white;
+    font-family:Poppins,sans-serif;
+}
+
+.manga-details{
+    max-width:900px;
+    margin:50px auto;
+    text-align:center;
+}
+
+.manga-details img{
+    width:300px;
+    border-radius:15px;
+}
+
+.manga-details h1{
+    color:#b026ff;
+}
+
+.manga-details p{
+    margin:20px 0;
+    line-height:1.8;
+}
+
+.manga-details a{
+    color:#b026ff;
+    text-decoration:none;
+    font-size:20px;
+}

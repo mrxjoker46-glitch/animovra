@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Solo Leveling",
+    "genre": "Fantasy • Action",
+    "rating": 9.8,
+    "popularity": 8362,
+    "likes": 21583,
+    "views": 16284,
+    "year": 2024,
+    "studio": "A-1 Pictures",
+    "status": "Airing",
+    "image": "images/anime/solo.jpg",
+    "description": "Humanity faces monsters and hunters rise to protect the world."
+  },
+  {
+    "id": 2,
+    "title": "Demon Slayer",
+    "genre": "Action • Adventure",
+    "rating": 9.5,
+    "popularity": 98000,
+    "likes": 22000,
+    "views": 98000,
+    "year": 2019,
+    "studio": "Ufotable",
+    "status": "Finished",
+    "image": "images/anime/demon.jpg",
+    "description": "Tanjiro becomes a Demon Slayer to save his sister."
+  }
+]
