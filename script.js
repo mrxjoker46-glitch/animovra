@@ -76,26 +76,51 @@ searchInput.addEventListener("input", () => {
 
     if (value === "") return;
 
+searchInput.addEventListener("input", () => {
+
+    const value = searchInput.value.trim().toLowerCase();
+
+    autocompleteBox.innerHTML = "";
+
+    if (value === "") return;
+
+    // Anime
     Object.entries(animeData).forEach(([id, anime]) => {
 
         if (anime.title.toLowerCase().includes(value)) {
 
             const div = document.createElement("div");
-
             div.className = "autocomplete-item";
             div.textContent = anime.title;
 
             div.addEventListener("click", () => {
-
                 window.location.href = `anime.html?id=${id}`;
-
             });
 
             autocompleteBox.appendChild(div);
-
         }
 
     });
+
+    // Manga
+    Object.entries(mangaData).forEach(([id, manga]) => {
+
+        if (manga.title.toLowerCase().includes(value)) {
+
+            const div = document.createElement("div");
+            div.className = "autocomplete-item";
+            div.textContent = manga.title;
+
+            div.addEventListener("click", () => {
+                window.location.href = `manga.html?id=${id}`;
+            });
+
+            autocompleteBox.appendChild(div);
+        }
+
+    });
+
+});
 
 });
 
